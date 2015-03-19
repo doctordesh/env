@@ -10,9 +10,9 @@ source ~/code/gobrave-tools/Dotfiles/paths.sh
 
 alias ls="ls -la"
 alias p="sudo purge"
-alias server="clear;cat ~/Games/server/server"
-alias eserver="subl ~/Games/server/server && cd ~/Games/server"
 alias sshs="subl ~/.ssh/config"
+alias py="python $@"
+alias dev="cd ~/Development"
 
 function acp {
   git add . -A; git commit -m "$1"; git push origin;
